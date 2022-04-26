@@ -1,0 +1,86 @@
+body {
+  background-color: silver;
+}
+body h1 {
+  color: rgb(249, 143, 3);
+  text-shadow: 1px 2px rgb(255, 255, 255);
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#contenido {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+
+
+#contenidi {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    display: none;
+  }
+
+
+#grupo-botones {
+  margin-top: 10px;
+  padding: 35px;
+  border: 7px solid rgb(138, 136, 136);
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+  background: rgb(189, 188, 188);
+  color: black;
+  text-align: center;
+  /* opacity: .5; */
+}
+
+#grupo-botonis {
+    margin-bottom: 25%;
+    padding: 30px;
+    border: 7px solid rgb(138, 136, 136);
+    outline: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background: rgb(189, 188, 188);
+    color: black;
+    text-align: center;
+    display: none;
+    opacity: .76;
+  }
+
+.btn-color {
+  margin-top: 5px;
+  padding: 13px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+  background: white;
+}
+
+
+
+#personajito1{
+
+    display: none;
+    width: 15%;
+    padding: 1%;
+    margin-top: 15%;
+   
+    
+}
+
+#personajito2{
+
+    display: none;
+    width: 15%;
+    padding: 1%;
+    margin-top: 15%;
+    
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Desafio 2 Dojo</title>
+</head>
+
+<body>
+
+    <div id="contenido">
+        <!-- CONTENIDO QUE SELECCIONA ESCENARIO -->
+        <img id="personajito1" src="dojo_arena_photos/player.png">
+        <div id="grupo-botones">
+
+            <h1>Select Arena</h1>
+
+            <div>
+                <button type="button" id="btn-beach" class="btn-color" onmouseenter="fondoPantalla(0)"
+                    onclick="mostrar(0)">
+                    beach
+                </button>
+
+                <button type="button" id="btn-planet" class="btn-color" onmouseenter="fondoPantalla(1)"
+                    onclick="mostrar(1)">
+                    planet
+                </button>
+
+                <button type="button" id="btn-dojo" class="btn-color" onmouseenter="fondoPantalla(2)"
+                    onclick="mostrar(2)">
+                    dojo
+                </button>
+            </div>
+
+            <div>
+                <button type="button" id="btn-forest" class="btn-color" onmouseenter="fondoPantalla(3)"
+                    onclick="mostrar(3)">
+                    forest
+                </button>
+
+                <button type="button" id="btn-matrix" class="btn-color" onmouseenter="fondoPantalla(4)"
+                    onclick="mostrar(4)">
+                    matrix
+                </button>
+
+                <button type="button" id="btn-snow" class="btn-color" onmouseenter="fondoPantalla(5)"
+                    onclick="mostrar(5)">
+                    snow
+                </button>
+            </div>
+        </div>
+        <!-- CONTENIDO QUE SELECCIONA A JUGADORES -->
+        <div id="grupo-botonis">
+            <div>
+                <h1>Select Players</h1>
+                <select id="luchador1">
+                    <option value="player">Select Ninja</option>
+                    <option value="donny">Donny</option>
+                    <option value="leo">Leo</option>
+                    <option value="mikey">Mikey</option>
+                    <option value="raphael">Raphael</option>
+                </select>
+                <select id="luchador2">
+                    <option value="player">Select Ninja</option>
+                    <option value="donny">Donny</option>
+                    <option value="leo">Leo</option>
+                    <option value="mikey">Mikey</option>
+                    <option value="raphael">Raphael</option>
+                </select>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <img id="personajito2" src="dojo_arena_photos/player.png" />
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>
